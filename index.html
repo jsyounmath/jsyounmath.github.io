@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Junseo Youn</title>
+  .profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.profile h1 { margin: 0; }
+
+.portrait {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+section { margin-top: 40px; }
+
+@media (max-width: 560px) {
+  .profile {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+}
+  <style>
+    body {
+      max-width: 720px;
+      margin: 60px auto;
+      padding: 0 24px;
+      font: 18px/1.6 Georgia, serif;
+      color: #243047;
+    }
+    h2 { border-bottom: 1px solid #ccd4df; }
+    a { color: #28578a; }
+  </style>
+</head>
+<body>
+  <header class="profile">
+  <div>
+    <h1>Junseo Youn</h1>
+    <p>I am an undergraduate math student at POSTECH. I am currently staying in UC Berkeley as a visiting student.
+      My research interests are geometric analysis, microlocal analysis, and inverse problems.</p>
+    <p>Email: <a href="mailto:jsyoun@berkeley.edu">jsyoun@berkeley.edu</a></p>
+    <nav>
+      <a href="#research">Research</a> · <a href="#cv">CV</a>
+    </nav>
+  </div>
+  <img class="portrait" src="photo.jpg" alt="Portrait of Junseo Youn">
+</header>
+
+<section id="research">
+  <h2>Research</h2>
+  <p></p>
+</section>
+
+<section id="cv">
+  <h2>Curriculum vitae</h2>
+  <p><a href="cv.pdf">View my CV (PDF)</a></p>
+</section>
+</body>
+</html>
